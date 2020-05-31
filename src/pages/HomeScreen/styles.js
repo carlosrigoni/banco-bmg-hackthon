@@ -31,6 +31,7 @@ export const InfosBar = styled(LinearGradient).attrs({
 
 export const InfosVerticalBar = styled.View`
   padding: 5%;
+  padding-right: 22%;
 `;
 
 export const BalanceText = styled.Text`

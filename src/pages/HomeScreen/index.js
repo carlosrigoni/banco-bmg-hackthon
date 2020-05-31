@@ -34,14 +34,14 @@ const HomeScreen = () => {
         <ButtonBack>
           <AntDesign name="arrowleft" size={24} color="#F37C1D" />
         </ButtonBack>
-        <HeaderTitle>Cashback</HeaderTitle>
+        <HeaderTitle>Investimentos</HeaderTitle>
       </HeaderBar>
 
       <InfosBar>
         <InfosVerticalBar>
           <BalanceText>Saldo disponível</BalanceText>
           <BalanceValue>R$ 99,00</BalanceValue>
-          <TextInfo>Valor já disponível na sua conta do cashback.</TextInfo>
+          <TextInfo>Valor já disponível na sua conta.</TextInfo>
 
           <PaginationButtonsBar>
             <PaginationButtonsOn />
@@ -60,27 +60,27 @@ const HomeScreen = () => {
 
       <NavigationBar>
         <ButtonNavigationBar>
-          <ButtonNavigationON>
-            <TextButtonNavigationON>Tudo</TextButtonNavigationON>
+          <ButtonNavigation>
+            <TextButtonNavigation>Tudo</TextButtonNavigation>
+          </ButtonNavigation>
+        </ButtonNavigationBar>
+
+        <ButtonNavigationBar>
+          <ButtonNavigation>
+            <TextButtonNavigation>Poupança</TextButtonNavigation>
+          </ButtonNavigation>
+        </ButtonNavigationBar>
+
+        <ButtonNavigationBar>
+          <ButtonNavigation>
+            <TextButtonNavigation>Fundos</TextButtonNavigation>
+          </ButtonNavigation>
+        </ButtonNavigationBar>
+
+        <ButtonNavigationBar>
+          <ButtonNavigation>
+            <TextButtonNavigationON>Grupos</TextButtonNavigationON>
             <Mark />
-          </ButtonNavigationON>
-        </ButtonNavigationBar>
-
-        <ButtonNavigationBar>
-          <ButtonNavigation>
-            <TextButtonNavigation>Crédito</TextButtonNavigation>
-          </ButtonNavigation>
-        </ButtonNavigationBar>
-
-        <ButtonNavigationBar>
-          <ButtonNavigation>
-            <TextButtonNavigation>Débito</TextButtonNavigation>
-          </ButtonNavigation>
-        </ButtonNavigationBar>
-
-        <ButtonNavigationBar>
-          <ButtonNavigation>
-            <TextButtonNavigation>Investir</TextButtonNavigation>
           </ButtonNavigation>
         </ButtonNavigationBar>
       </NavigationBar>
