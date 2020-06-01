@@ -24,7 +24,13 @@ import {
 } from "./styles";
 import Header from "../HomeScreen";
 
+import { Linking } from "react-native";
+
 const StatisticsScreen = () => {
+  function sendWhatsapp() {
+    Linking.openURL("https://chat.whatsapp.com/GLjzKfbIfmELsT1LRRKCDu");
+  }
+
   return (
     <Container>
       <Header />
@@ -74,7 +80,7 @@ const StatisticsScreen = () => {
         <ValueAvaliableValue>R$ 100,00</ValueAvaliableValue>
 
         <Button>
-          <ButtonText>Entrar no grupo</ButtonText>
+          <ButtonText onPress={sendWhatsapp}>Entrar no grupo</ButtonText>
         </Button>
       </Statics>
     </Container>
